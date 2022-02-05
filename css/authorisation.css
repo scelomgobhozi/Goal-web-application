@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+
+body {
+    background-image: linear-gradient(90deg, #1B98E0 49%, white 49%);
+}
+
+
+.content-container {
+    max-width: 1160px;
+    margin: auto auto auto auto;
+}
+
+.flogo {
+    color: rgb(82, 82, 82);
+    font-size: 30px;
+    font-weight: 100;
+    margin: auto;
+
+}
+
+.flogo:hover {
+    color: rgb(82, 82, 82);
+}
+
+
+.svg-container svg {
+    width: 70%;
+}
+
+
+.login-btn {
+    background-color: #4793ec;
+    height: 30px;
+    border-radius: 0;
+    width: 80px;
+    color: #ffff;
+    padding-top: 0;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+
+.form-container {
+    margin-top: 5.5rem;
+}
+
+
+.form-container label {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.form-container p {
+    padding: 1.5rem 0 0.5rem 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+
+.form-container .btn {
+    background-color: #ffef5a;
+    width: 150px;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.ssm-container {
+    padding-bottom: 1rem;
+    text-align: left;
+
+
+}
+
+.passlen, .passlenemail {
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+    display: none;
+    padding-left: 5px;
+}
+
+.errorL {
+    border: solid red 1px;
+}
+
+.statusM {
+    background-color: #33ca7f;
+    padding: 1rem;
+    width: 225px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+
+}
+
+.navbar .container-fluid {
+    padding-right: 0px;
+}
+
+.btn-nav-item {
+    padding-right: 0;
+}
+
+
+/* -------------------Extrasmall screens------------------- */
+@media (min-width: 0px) and (max-width: 339px) {
+    .svg-container a {
+        text-align: center;
+    }
+
+
+    .form-container {
+        padding-left: 4%;
+        padding-right: 4%;
+        text-align: center;
+    }
+
+    body {
+
+        background-color: #1B98E0;
+    }
+
+    .svg-container {
+        display: none;
+    }
+
+    .container-fluid {
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+
+}
+
+/* ---------------Small screeens--------------------- */
+@media (min-width: 340px) and (max-width: 575px) {
+
+    body {
+        background-image: none;
+        background-color: #1B98E0;
+    }
+
+
+    .svg-container {
+        display: none;
+    }
+
+
+    .form-container {
+        padding: 5% 5% 5% 5%;
+        background-color: white;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+
+    .container-fluid {
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .main-content {
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+
+    }
+
+    .background-svg {
+        z-index: -10;
+        position: absolute;
+        height: 400PX;
+        /* left: 810px;
+        width: 800px;
+        bottom: -80px; */
+        display: none;
+
+    }
+
+    .mobile-background-svg {
+        z-index: -10;
+        position: absolute;
+        transform: rotate(180deg);
+        top: 10px;
+        height: 400px;
+
+
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    body {
+        background-image: none;
+        background-color: #1B98E0;
+    }
+
+    .form-container {
+        text-align: center;
+    }
+
+    .svg-container {
+        display: none;
+    }
+
+
+    .background-svg {
+        z-index: -10;
+        position: absolute;
+        height: 550PX;
+        display: none;
+
+
+    }
+
+    .mobile-background-svg {
+        z-index: -10;
+        position: absolute;
+        display: inline-block;
+        right: 25px;
+        bottom: -180px;
+        width: 1000px;
+
+    }
+
+
+    nav .container-fluid {
+        padding: 0 18px 0 18px;
+    }
+
+
+    .main-content {
+        padding: 6rem 2rem 0 2rem;
+    }
+
+    .form-container {
+        padding: 5% 5% 5% 5%;
+        background-color: white;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+
+}
+
+
+/* ----------------------------------------- Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    body {
+        background-image: none;
+        background-color: #1B98E0;
+    }
+
+    .svg-container {
+        display: none;
+    }
+
+
+    nav .container-fluid {
+        padding: 0 9px 0 9px;
+    }
+
+
+    .main-content {
+        padding: 6rem 2rem 0 2rem;
+    }
+
+    .form-container {
+        max-width: 480px;
+        margin: 60px auto 10px auto;
+
+
+    }
+
+    nav {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .form-container {
+        padding: 5% 5% 5% 5%;
+        background-color: white;
+        text-align: center;
+        border-radius: 4px;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}

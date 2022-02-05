@@ -1,0 +1,355 @@
+/* Default html css */
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #1B98E0;
+}
+
+.main-content-container {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.login-btn {
+    background-color: #09bc8a;
+    height: 30px;
+    border-radius: 4px;
+    width: 80px;
+    color: #ffff;
+    padding: 0;
+}
+
+.background-svg {
+    z-index: -10;
+    position: absolute;
+    height: 400PX;
+    /* left: 810px;
+    width: 800px;
+    bottom: -80px; */
+
+}
+
+.mobile-background-svg {
+    z-index: -10;
+    position: absolute;
+    display: none;
+
+
+}
+
+.main-content {
+    padding: 6rem 5rem 0 5rem;
+}
+
+/*.main-content h1 {*/
+/*    font-weight: 500;*/
+/*    font-family: 'Karla', sans-serif;*/
+/*    font-size: 64px;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+
+.main-content p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.header-container-btn a, .login-btn a {
+
+    text-decoration: white;
+    color: white;
+}
+
+
+.header-container-btn button {
+
+    width: 158px;
+    height: 40px;
+
+    border-radius: 9px;
+
+    color: #ffff;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h-btnlogin {
+    background-color: rgba(26, 107, 182, 0.65);
+
+
+}
+
+.h-btnsingup {
+    background-color: #09BC8A;
+    padding: 2rem;
+    margin-left: 10%;
+}
+
+.header-text-container {
+    padding-top: 5rem;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-text-container h1 {
+    font-size: 54px;
+    color: white;
+    font-weight: normal;
+    line-height: 69px;
+    letter-spacing: 3px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+
+.header-img-container img {
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.header-img-container {
+    text-align: center;
+}
+
+
+/* ----------------Mobile CSS-------------- */
+/*  X-Small devices (portrait phones, less than 576px) */
+/*  No media query for `xs` since this is the default in Bootstrap */
+
+/*  Small devices (landscape phones, 576px and up) */
+
+
+/* @media only screen and (max-width: 600px) and (min-width: 400px)  {
+ 
+
+
+} */
+/* -------------------Extrasmall screens------------------- */
+@media (min-width: 0px) and (max-width: 339px) {
+    .container-fluid {
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .main-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+
+    }
+    .header-text-container h1 {
+        font-size: 44px;
+        line-height: 59px;
+
+
+    }
+    .header-text-container{
+        padding-top: 10px ;
+    }
+    .main-content p {
+
+        font-weight: normal;
+
+        font-size: 12px;
+
+
+    }
+    .h-btnlogin {
+        background-color: rgba(26, 107, 182, 0.65);
+
+
+    }
+
+    .h-btnsingup {
+        background-color: #09BC8A;
+        padding: 2rem;
+        margin: 10px 0 0 0
+    }
+
+
+
+
+
+}
+
+/* ---------------Small screeens--------------------- */
+@media (min-width: 340px) and (max-width: 575px) {
+
+    .container-fluid {
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+
+
+    .main-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+
+    }
+    .header-text-container h1 {
+        font-size: 44px;
+        line-height: 59px;
+
+
+    }
+    .header-text-container{
+        padding-top: 40px ;
+    }
+    .main-content p {
+
+
+
+        font-size: 12px;
+
+
+    }
+
+
+    .h-btnsingup {
+
+        margin:  0;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .background-svg {
+        z-index: -10;
+        position: absolute;
+        height: 550PX;
+        display: none;
+
+
+    }
+
+    .mobile-background-svg {
+        z-index: -10;
+        position: absolute;
+        display: inline-block;
+        right: 25px;
+        bottom: -180px;
+        width: 1000px;
+
+    }
+
+
+    nav .container-fluid {
+        padding: 0 18px 0 18px;
+    }
+
+
+    .main-content {
+        padding: 6rem 2rem 0 2rem;
+    }
+
+    .text-header-container h1 {
+        font-size: 42px;
+    }
+
+    .main-content p {
+        font-size: small;
+        text-align: center;
+    }
+
+
+    .header-container-btn {
+        padding-top: 2rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+
+}
+
+
+/* ----------------------------------------- Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav .container-fluid {
+        padding: 0 9px 0 9px;
+    }
+
+
+    .main-content {
+        padding: 6rem 2rem 0 2rem;
+    }
+
+    .text-header-container h1 {
+        font-size: 42px;
+    }
+    .main-content p {
+        font-size: small;
+        text-align: center;
+    }
+
+
+    .header-container-btn {
+        padding-top: 2rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (max-width: 768px) {
+  body {
+    background-color:blue;
+  }
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (max-width: 992px) {
+    body{
+        background-color: green;   
+       }
+} */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (max-width: 1200px) {
+    body{
+        background-color: purple;   
+       }
+} */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (max-width: 1400px) {
+    body{
+        background-color: rgb(0, 217, 255);   
+       } */
+/* } */

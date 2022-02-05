@@ -1,0 +1,95 @@
+nav {
+    margin: auto;
+    max-width: 1160px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav .navbar-toggler {
+    border: none;
+}
+
+nav a{
+    color: white;
+}
+nav .navbar-brand {
+    font-family: 'Saira Semi Condensed', sans-serif;
+
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+
+
+}
+
+nav, .container-fluid {
+    padding: 0;
+}
+
+nav .nav-item{
+    padding: 0 3rem 0 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+nav .btn-nav-item {
+    margin-top: 9px;
+}
+.row{
+    margin: 0;
+}
+
+
+@media (min-width: 0px) and (max-width: 339px) {
+
+    nav {
+        padding-left: 10px;
+        padding-right:10px;
+
+
+    }
+
+
+}
+
+
+@media (min-width: 340px) and (max-width: 575px) {
+
+    nav  {
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    nav, .container-fluid {
+        padding: 0 2rem 0 2rem;
+    }
+
+
+}
+
+
+/* ----------------------------------------- Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+  

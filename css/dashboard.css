@@ -1,0 +1,364 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+
+body
+{
+  background-color: #1B98E0;
+}
+nav {
+    max-width: none;
+
+}
+
+.main-content p{
+    color: black;
+    font-weight: 500;
+}
+
+.addgoal-container
+{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    max-height: 590px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+}
+
+.b-goal
+{
+    margin-top: 30px; 
+    background-color: #F5F7FA;
+    padding: 2rem;
+    border-radius: 10px;
+    max-height: 590px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+    
+}
+.container-fluid
+{
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.navbar
+{
+    padding: 0;
+}
+
+.main-content
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+textarea
+{
+    width: 100%;
+    padding: 2px;
+}
+
+.bi
+{
+    background-color: blue;
+    color: blue;
+}
+
+
+.add-goal-btn-container
+{
+    text-align: center;
+    margin-top:2rem;
+}
+.add-goal-btn
+{
+    border: 0.5px solid grey;
+    background-color: #ffef5a;
+    margin: auto;
+}
+
+.goals-list h4
+{
+  text-align: center;
+}
+
+.goals-list h5
+{
+  display: inline-block;
+}
+
+.goal-list span
+{
+    margin-right: 20%;
+}
+
+.goals-inner-content p
+{
+    margin-bottom: 5px;
+}
+
+.goals-inner-content
+{
+    background-color: #ECECEC;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.goals-inner-content{
+    background-color: #F5F7FA;
+
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.goals-inner-content h5{
+font-weight: bold;
+}
+
+
+.pending-goal , .accomp-goals
+{
+    text-align: left;
+    border: grey solid 1px;
+    border-radius: 10px;
+    padding: 5%;
+    margin-bottom: 1rem;
+}
+
+.pending-goal p , .accomp-goals p , .goals-inner-content p
+{
+    text-align: left;
+} 
+
+.pending-goal label , .goals-inner-content label
+{
+    font-size: 13px;
+}
+
+.pending-goal .btn
+{
+
+    
+    padding: 2px 6px 2px 6px;
+    font-size: 13px;
+
+}
+
+.pending-goal .p-d-btn
+{
+   background-color: #5222D0;
+   color: white;
+}
+
+.pending-goal .p-e-btn
+{
+   background-color: #EC615B;
+   color: white;
+   margin-left: 10px;
+   padding-left: 15px;
+   padding-right:15px ;
+}
+
+.pending-btn-container
+{
+    margin-top: 20px;
+}
+
+.goals-inner-content p{
+    font-size: small;
+}
+
+
+#goalspan, #goaldesspan , #deadlinespan{
+    color: red;
+    font-size: small;
+    font-weight: lighter;
+    
+    padding-left: 5px;
+  }
+  .errorL{
+    border: solid red 1px;
+  }
+  
+  .form-message
+  {
+     
+      padding: 1rem;
+     width: 50%;
+     margin:2rem auto 0 auto;
+  }
+
+  .complink{
+     text-decoration: none; 
+     color: black;
+     padding: 0.3rem;
+     background-color: #33CA7F;
+     font-size: 0.7rem;
+     border-radius: 5px;
+
+  }
+  .cat-container  a{
+   text-decoration: none;   
+   color: white;
+   font-family: 'Poppins', sans-serif;
+  }
+
+  .cat-container a:hover{
+      background-color: white;
+  }
+  .cat-container li{
+      list-style: none;
+      display: inline-block;
+      background-color: rgb(22, 117, 241);
+    
+
+      
+
+  }
+
+  .cat-container ul ,.cat-container li{
+      margin: 0 0 0 0;
+      padding: 0;
+  }
+  .cat-container{
+    
+
+    margin: 0 0 0 0;
+   
+  }
+
+
+
+
+
+ 
+  
+  .pending-a{
+     
+      padding: 0.5rem;
+      border-top-right-radius: 10px;
+  }
+  
+
+
+  .navbar .container-fluid{
+      padding-right: 40px;
+  }
+  .update-goal-wrapper{
+      width: 50%;
+  }
+
+  /* .cat-container li:active{
+    background-color: black;
+
+  } */
+  /* .cat-container li:focus{
+    background-color: black;
+
+  } */
+  .selected{
+    background-color: rgb(236, 229, 164);
+    padding: 0.5rem;
+    font-size: small;
+    
+}
+
+.date-created-p , .deadline-p{
+    color: white;
+    width: fit-content;
+    padding: 2px 5px 2px 5px;
+}
+
+
+.date-created-p{
+    background-color: rgb(50, 234, 15);
+}
+
+.deadline-p{
+    background-color: rgba(255, 50, 47, 0.61);
+}
+.pending-p{
+    color: black;
+}
+
+  
+
+
+
+/* -----------------------Hiding div--------------------- */
+/* .goal-accom-wrnaapper
+{
+    display: none;
+}
+
+.goal-pending-wrapper
+{
+   display: none;
+} */
+
+
+@media (min-width: 0px) and (max-width:339px) {
+
+   
+
+
+}
+
+
+ @media (min-width: 340px) and (max-width:575px) {
+    .col-sm-12
+    {
+        margin-bottom: 2rem;
+    }
+
+} 
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+    .col-sm-12
+    {
+        margin-bottom: 2rem;
+    }
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ----------------------------------------- Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+   .col-sm-12
+   {
+       margin-bottom: 2rem;
+   }
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+  }
+  
