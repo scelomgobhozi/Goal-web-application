@@ -58,7 +58,7 @@ class Login extends Dbh{
          exit();
          
      }
-     echo $stmt2->rowCount();
+     
      if($stmt2->rowCount() == 0){
          $stmt = null;
          echo "stmt failed no records found";
